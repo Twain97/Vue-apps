@@ -15,8 +15,7 @@ export default {
 }
 .container {
   position: relative;
-  /* border: 4px solid rgb(121, 116, 116); */
-  margin: 0 auto;
+  margin: 30px auto;
   width: 32%;
   height: 80vh;
   overflow: hidden;
@@ -40,17 +39,13 @@ export default {
 .container::after {
   content: "";
   position: absolute;
-  /* display: flex;
-  align-content: center;
-  justify-content: center; */
   width: 98%;
-  height: 79vh;
+  height: 78vh;
   left: 50%;
   top: 50%;
-  background-color: rgb(14, 16, 19);
+  background-color: rgb(11, 2, 17);
   border-radius: 20px;
   transform: translate(-50%, -50%);
-  /* box-shadow: 4px 4px 12px gray, -4px -4px 12px gray; */
 }
 
 @keyframes round {
@@ -62,11 +57,11 @@ export default {
   }
 }
 
-/************** Mobile Version **************************/
+/***** Mobile Version**************/
+
 @media (max-width: 480px) {
   .container {
     position: relative;
-    /* border: 4px solid rgb(121, 116, 116); */
     margin: 0 auto;
     width: 70%;
     height: 80vh;
@@ -96,10 +91,10 @@ export default {
     align-content: center;
     justify-content: center;
     width: 98%;
-    height: 78.9vh;
+    height: 77.5vh;
     left: 50%;
     top: 50%;
-    background-color: rgb(14, 16, 19);
+    background-color: rgb(11, 2, 17);
     border-radius: 20px;
     transform: translate(-50%, -50%);
   }
